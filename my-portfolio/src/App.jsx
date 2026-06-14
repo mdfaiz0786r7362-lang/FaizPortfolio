@@ -223,7 +223,7 @@ export default function App() {
             {/* Center Profile */}
             <div className="w-full lg:w-1/3 py-8 px-0 lg:px-8 flex flex-col items-center text-center gap-6 border-b lg:border-b-0 lg:border-r border-[#1a1a14]">
               <div className="relative w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden border-4 border-[#1a1a14] shadow-[6px_6px_0_#1a1a14]">
-                <img src="C:\Portfolio\my-portfolio\src\profile\faiz.jpg" alt="Md Faiz" className="w-full h-full object-cover" />
+                <img src="/faiz.jpg" alt="Md Faiz" className="w-full h-full object-cover" />
               </div>
               <div>
                 <p className="font-playfair text-xl font-bold mb-1">Md Faiz</p>
