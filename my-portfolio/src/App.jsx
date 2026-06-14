@@ -19,7 +19,7 @@ const PROJECTS = [
     title: "Retail Sales Analysis Dashboard",
     tech: ["Microsoft Excel"],
     period: "Jan 2026 – Feb 2026",
-    github: "https://github.com",
+    github: "https://github.com/mdfaiz0786r7362-lang/Retail-Sales-Performance-Dashboard",
     points: [
       "Built an interactive Excel dashboard to analyze sales, profit, and regional performance.",
       "Used Pivot Tables, charts, and slicers for dynamic reporting across multiple dimensions.",
@@ -33,7 +33,7 @@ const PROJECTS = [
     title: "Super Store Sales Dashboard",
     tech: ["Power BI", "Excel"],
     period: "Jun 2026 – Aug 2026",
-    github: "https://github.com",
+    github: "https://github.com/mdfaiz0786r7362-lang/Employee-Management-System-",
     points: [
       "Developed an interactive sales dashboard using Power BI to analyze sales, profit, quantity, and delivery performance.",
       "Created dynamic visualizations: KPI cards, bar charts, donut charts, and trend analysis reports.",
@@ -232,7 +232,7 @@ export default function App() {
               <p className="text-sm leading-relaxed text-[#4a4a3a] max-w-sm">Detail-oriented aspiring Data Analyst skilled in turning raw datasets into strategic insights. Passionate about Excel, SQL, and visual storytelling through Power BI dashboards.</p>
               <div className="flex gap-3 flex-wrap justify-center">
                 <a href="mailto:mdfaiz0786r7362@gmail.com" className="text-xs px-5 py-2 uppercase tracking-[0.15em] bg-[#1a1a14] text-[#F5F1E8] font-semibold hover:opacity-90 transition">Hire Me</a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-xs px-5 py-2 uppercase tracking-[0.15em] border-2 border-[#1a1a14] text-[#1a1a14] font-medium hover:bg-[#1a1a14] hover:text-[#F5F1E8] transition">GitHub ↗</a>
+                <a href="https://github.com/mdfaiz0786r7362-lang" target="_blank" rel="noopener noreferrer" className="text-xs px-5 py-2 uppercase tracking-[0.15em] border-2 border-[#1a1a14] text-[#1a1a14] font-medium hover:bg-[#1a1a14] hover:text-[#F5F1E8] transition">GitHub ↗</a>
               </div>
             </div>
 
@@ -241,8 +241,8 @@ export default function App() {
               <p className="text-xs uppercase tracking-widest text-[#8a8a7a]">Contact</p>
               <ContactLine icon="✉" label="Email" href="mailto:mdfaiz0786r7362@gmail.com" val="mdfaiz0786r7362@gmail.com" />
               <ContactLine icon="📞" label="Phone" href="tel:+917362896890" val="+91 73628 96890" />
-              <ContactLine icon="💼" label="LinkedIn" href="#" val="View Profile ↗" />
-              <ContactLine icon="🐙" label="GitHub" href="https://github.com" val="View Repos ↗" />
+              <ContactLine icon="💼" label="LinkedIn" href="https://www.linkedin.com/in/md-faiz-459627367" val="View Profile ↗" />
+              <ContactLine icon="🐙" label="GitHub" href="https://github.com/mdfaiz0786r7362-lang" val="View Repos ↗" />
               <div className="border-t border-[#c8c4b0] pt-4 mt-2">
                 <p className="text-xs uppercase tracking-widest mb-3 text-[#8a8a7a]">Open To</p>
                 {["Full-time Roles", "Internships", "Freelance", "Consulting"].map((a) => (
@@ -334,8 +334,8 @@ export default function App() {
                 {[
                   { icon: "✉", label: "Email", val: "mdfaiz0786r7362@gmail.com", href: "mailto:mdfaiz0786r7362@gmail.com" },
                   { icon: "📞", label: "Phone", val: "+91 73628 96890", href: "tel:+917362896890" },
-                  { icon: "💼", label: "LinkedIn", val: "linkedin.com/in/mdfaiz", href: "#" },
-                  { icon: "🐙", label: "GitHub", val: "github.com/mdfaiz", href: "https://github.com" },
+                  { icon: "💼", label: "LinkedIn", val: "linkedin.com/in/mdfaiz", href: "https://www.linkedin.com/in/md-faiz-459627367" },
+                  { icon: "🐙", label: "GitHub", val: "github.com/mdfaiz", href: "https://github.com/mdfaiz0786r7362-lang" },
                 ].map((c) => (
                   <a key={c.label} href={c.href} className="flex items-center gap-4 py-4 border-b border-[#c8c4b0] hover:opacity-70 transition no-underline text-inherit">
                     <span className="text-lg w-6 text-center">{c.icon}</span>
